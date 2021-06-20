@@ -1,8 +1,19 @@
 #include <stdio.h>
+#include <string.h>
 
-int main (void) {
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
-  puts("\"Programming is like building a multilingual puzzule");
-  return 0;
-  
+int main(void)
+{
+	char string[50];
+
+	strcpy(string, "\"Programming is like building a multilingual puzzle");
+
+	puts(string);
+
+	return (0);
 }
