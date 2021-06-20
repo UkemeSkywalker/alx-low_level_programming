@@ -20,6 +20,6 @@ printf("Size of a long int: %zu\n", sizeof(longType));
 printf("Size of a long long int: %zu\n", sizeof(doubleType));
 printf("Size of a float: %zu\n", sizeof(floatType));
 
-return (0)
+return (0);
 }
   
