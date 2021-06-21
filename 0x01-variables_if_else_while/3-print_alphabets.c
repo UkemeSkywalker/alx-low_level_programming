@@ -7,12 +7,12 @@ int main(void)
   
   for ( X = 'A'; X <= 'Z'; X++)
     {
-      putchar(X);
+      putchar(tolower(X));
     }
   
   for ( X = 'A'; X<= 'Z'; X++)
     {
-      putchar(tolower(X));
+      putchar(X);
     }
   putchar(' ');
   return (0);
