@@ -13,6 +13,7 @@ char A;
 for (A = 'a'; A <= 'z'; A++)
 {
 putchar(A);
+putchar(' ');
 }
 return (0);
 }
