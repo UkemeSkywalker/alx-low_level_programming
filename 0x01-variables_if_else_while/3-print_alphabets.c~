@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+
+int main(void)
+{
+  char X = 'A';
+
+  for ( X; X <= 'Z'; x++){
+    putchar(X);
+    putchar(tolower(X);
+	    putchar('\n');
+	    return (0);
+
+	    }  
